@@ -29,9 +29,9 @@ final class DKIMTest extends SendTestCase
      *
      * @var bool|null
      */
-    const USE_EXCEPTIONS = true;
+    public const USE_EXCEPTIONS = true;
 
-    const PRIVATE_KEY_FILE = 'dkim_private.pem';
+    public const PRIVATE_KEY_FILE = 'dkim_private.pem';
 
     /**
      * Run after each test is completed.

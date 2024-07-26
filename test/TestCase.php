@@ -32,7 +32,7 @@ abstract class TestCase extends PolyfillTestCase
      *
      * @var bool|null
      */
-    const USE_EXCEPTIONS = null;
+    public const USE_EXCEPTIONS = null;
 
     /**
      * Property names and their values for the test instance of the PHPMailer class.
